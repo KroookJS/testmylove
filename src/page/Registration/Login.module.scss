@@ -1,0 +1,45 @@
+.root {
+  width: 400px;
+  padding: 50px;
+  border: 1px solid #dedede;
+  margin: 5px auto;
+}
+
+.field {
+  margin-bottom: 20px !important;
+}
+
+.title {
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-bottom: 30px !important;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  & button {
+    padding: 0.5rem;
+    border-radius: 10px;
+    background: #2c74d1;
+    color: #fff;
+
+   
+  }
+  & button:hover {
+    background: #0962d7;
+    
+  }
+}
+.image {
+  height: 100px;
+  width: 100px;
+}
